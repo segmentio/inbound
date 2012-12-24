@@ -11,6 +11,11 @@ It's useful to know where the visitor is coming from so that you can optimize an
 
 ## How To Use
 
+### Install
+```
+npm install inbound
+```
+
 ### API
 ```javascript
 var inbound = require('inbound');
@@ -18,6 +23,10 @@ inbound.referrer.parse(url, referrer, function (err, description) {
     console.log(description);
 });
 ```
+
+**url** (string) is the page url, equivalent to client-side javascript's ```window.location.href``` or express.js ```req.url```
+
+**referrer** (string) is the referrer, equivalent to client-side javascript's ```document.referrer``` or express.js ```req.header('referrer')```
 
 ### Express.js Middleware
 ```javascript
@@ -98,23 +107,23 @@ inbound.referrer.parse(url, referrer, function (err, description) {
 ## Supported Matchers
 
 ### Social
-* [Facebook](https://github.com/segmentio/inbound/lib/matchers/social/facebook.js)
-* [Twitter](https://github.com/segmentio/inbound/lib/matchers/social/twitter.js)
-* [Google+](https://github.com/segmentio/inbound/lib/matchers/social/googlePlus.js)
-* [Pinterest](https://github.com/segmentio/inbound/lib/matchers/social/pinterest.js)
-* [LinkedIn](https://github.com/segmentio/inbound/lib/matchers/social/linkedin.js)
+* [Facebook](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/facebook.js)
+* [Twitter](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/twitter.js)
+* [Google+](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/googlePlus.js)
+* [Pinterest](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/pinterest.js)
+* [LinkedIn](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/linkedin.js)
 
 ### Search
-* [Google](https://github.com/segmentio/inbound/lib/matchers/search/google.js)
-* [Bing](https://github.com/segmentio/inbound/lib/matchers/search/bing.js)
-* [Yahoo](https://github.com/segmentio/inbound/lib/matchers/search/yahoo.js)
-* [Baidu](https://github.com/segmentio/inbound/lib/matchers/search/baidu.js)
+* [Google](https://github.com/segmentio/inbound/tree/master/lib/matchers/search/google.js)
+* [Bing](https://github.com/segmentio/inbound/tree/master/lib/matchers/search/bing.js)
+* [Yahoo](https://github.com/segmentio/inbound/tree/master/lib/matchers/search/yahoo.js)
+* [Baidu](https://github.com/segmentio/inbound/tree/master/lib/matchers/search/baidu.js)
 * [Yandex](https://github.com/segmentio/inbound/lib/matchers/search/yandex.js)
 
 ### Email Clients
-* [Gmail](https://github.com/segmentio/inbound/lib/matchers/email/gmail.js)
-* [Yahoo](https://github.com/segmentio/inbound/lib/matchers/email/yahoo.js)
-* [Hotmail](https://github.com/segmentio/inbound/lib/matchers/email/hotmail.js)
+* [Gmail](https://github.com/segmentio/inbound/tree/master/lib/matchers/email/gmail.js)
+* [Yahoo](https://github.com/segmentio/inbound/tree/master/lib/matchers/email/yahoo.js)
+* [Hotmail](https://github.com/segmentio/inbound/tree/master/lib/matchers/email/hotmail.js)
 
 ### Ads
 _Gasp!_ None yet. Please [help me add some](#contribute).
@@ -122,17 +131,17 @@ _Gasp!_ None yet. Please [help me add some](#contribute).
 ### Internal
 Internal referrers occur when a visitor navigates between two pages of the same domain. Example: http://site.com => http://site.com/about
 
-* [Internal](https://github.com/segmentio/inbound/lib/matchers/internal/internal.js)
+* [Internal](https://github.com/segmentio/inbound/tree/master/lib/matchers/internal/internal.js)
 
 ### Link
 If there is a referrer present but it's unrecognized above, we'll just call it a link referrer.
 
-* [Link](https://github.com/segmentio/inbound/lib/matchers/link/link.js)
+* [Link](https://github.com/segmentio/inbound/tree/master/lib/matchers/link/link.js)
 
 ### Direct
 When a visitor navigates to a site by typing in the url into the address bar, ```document.referrer``` is blank. This is called a direct referral. (There are some [other reasons](#why-is-my-documentreferrer-blank) this can happen as well.)
 
-* [Direct](https://github.com/segmentio/inbound/lib/matchers/direct/direct.js)
+* [Direct](https://github.com/segmentio/inbound/tree/master/lib/matchers/direct/direct.js)
 
 ## Utilities
 
@@ -151,21 +160,21 @@ inbound.shorten.url('https://segment.io/?imm_mid=094f89&cmp=em-npa-ug-nl-sep15-h
 // "segment.io"
 
 inbound.shorten.url('http://ianstormtaylor.com/oocss-plus-sass-is-the-best-way-to-css/?utm_source=hackernewsletter&utm_medium=email')
-// "ianstormtaylor.com/oocss-plus-sass-is-the-best-way-to-css"
+// "ianstormtaylor.com/oocss-plus-sass-is-the-best-way-to-css
 ```
 
 ## Contribute
 
 ### Matchers
-Matchers help identify and attach more semantic information to referral sources. We'd love your help on adding the hundreds of social, search, ad, and other referral sources not matched yet by inbound.
+Matchers help identify and attach more semantic information to referral sources. We'd your help on adding the hundreds of social, search, ad, and other referral sources not matched yet by inbound.
 
 To add matchers:
 
-1. Using existing matchers as an example, create your matcher at [/lib/matchers/](https://github.com/segmentio/inbound/lib/matchers/).
-1. Add your matcher to the priority list of matchers in [index.js](https://github.com/segmentio/inbound/lib/matchers/index.js).
-1. Add your test cases to [the test cases file](https://github.com/segmentio/inbound/test/cases/referrers.json).
+1. Using existing matchers as an example, create your matcher at [/lib/matchers/](https://github.com/segmentio/inbound/tree/master/lib/matchers/).
+1. Add your matcher to the priority list of matchers in [index.js](https://github.com/segmentio/inbound/tree/master/lib/matchers/index.js).
+1. Add your test cases to [the test cases file](https://github.com/segmentio/inbound/tree/master/test/cases/referrers.json).
 1. Run and confirm that your test cases pass: ```npm test```
-1. Add your matcher to the [readme](https://github.com/segmentio/inbound/README.md).
+1. Add your matcher to the [readme](https://github.com/segmentio/inbound/tree/master/README.md).
 1. Submit your pull request!
 
 ## Advanced
@@ -177,9 +186,10 @@ To add matchers:
 
 ### Why is the matchers API asynchronous?
 
-Even though most matchers do synchronous string matching, leaving the API asynchronous allows matchers that fill in more semantic information about the referrer by hitting an API.
+Even though most matchers do synchronous string matching, leaving the API asynchronous allows matchers that fill in more semantic information about the referrer by hitting some sort of API.
 
 ## License
+
 
 ```
 WWWWWW||WWWWWW
