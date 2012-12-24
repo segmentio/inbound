@@ -3,12 +3,6 @@
 
 inbound is a referrer parsing library for node.js / express web apps.
 
-## Why?
-
-A visitor that comes to your site from an ad will behave differently then one coming from an email campaign.
-
-It's useful to know where the visitor is coming from so that you can optimize an experience for them.
-
 ## How To Use
 
 ### Install
