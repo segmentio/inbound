@@ -67,15 +67,14 @@ var referrer = "http://twitter.com/ryah";
 inbound.referrer.parse(url, referrer, function (err, description) {
     console.log(description);
 });
-
-/*
+```
+```json
 {
   "referrer": {
     "type": "social",
     "network": "twitter"
   }
 }
-*/
 ```
 
 Here's an example of a visitor clicking a campaign email from gmail, and arriving at a blog:
@@ -87,7 +86,8 @@ var referrer =  "https://mail.google.com/_/mail-static/_/js/main/m_i,t/rt=h/ver=
 inbound.referrer.parse(url, referrer, function (err, description) {
     console.log(description);
 });
-/*
+```
+```json
 {
   "referrer": {
      "type": "email",
@@ -101,7 +101,6 @@ inbound.referrer.parse(url, referrer, function (err, description) {
     "campaign": "Feed: contrast/blog (The Intercom Blog)"
   }
 }
-*/
 ```
 
 ## Supported Matchers
