@@ -1,0 +1,19 @@
+{
+    "name": "inbound"
+  , "version": "0.0.1"
+  , "description": "Url referrer and campaign parsing utilities"
+  , "author": "Ilya Volodarsky <ilya@segment.io>"
+  , "engines": { "node": ">= 0.8" }
+  , "main": "./index"
+  , "scripts": {
+    "test": "mocha --reporter spec"
+  }
+  , "dependencies":{
+      "underscore": "*"
+    , "async": "*"
+  }
+  , "devDependencies": {
+      "should": "*"
+    , "mocha": "*"
+  }
+}
