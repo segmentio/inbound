@@ -117,7 +117,7 @@ inbound.referrer.parse(url, referrer, function (err, description) {
 * [Hotmail](https://github.com/segmentio/inbound/lib/matchers/email/hotmail.js)
 
 ### Ads
-_Gasp!_ None yet. Please [help me add some](#Contributing).
+_Gasp!_ None yet. Please [help me add some](#contribute).
 
 ### Internal
 Internal referrers occur when a visitor navigates between two pages of the same domain. Example: http://site.com => http://site.com/about
@@ -130,7 +130,7 @@ If there is a referrer present but it's unrecognized above, we'll just call it a
 * [Link](https://github.com/segmentio/inbound/lib/matchers/link/link.js)
 
 ### Direct
-When a visitor navigates to a site by typing in the url into the address bar, ```document.referrer``` is blank. This is called a direct referral. (There are some [other reasons](#Advanced) this can happen as well.)
+When a visitor navigates to a site by typing in the url into the address bar, ```document.referrer``` is blank. This is called a direct referral. (There are some [other reasons](#why-is-my-documentreferrer-blank) this can happen as well.)
 
 * [Direct](https://github.com/segmentio/inbound/lib/matchers/direct/direct.js)
 
@@ -157,7 +157,7 @@ inbound.shorten.url('http://ianstormtaylor.com/oocss-plus-sass-is-the-best-way-t
 ## Contribute
 
 ### Matchers
-Matchers help identify and attach more semantic information to referral sources. We'd your help on adding the hundreds of social, search, ad, and other referral sources not matched yet by inbound.
+Matchers help identify and attach more semantic information to referral sources. We'd love your help on adding the hundreds of social, search, ad, and other referral sources not matched yet by inbound.
 
 To add matchers:
 
@@ -177,10 +177,7 @@ To add matchers:
 
 ### Why is the matchers API asynchronous?
 
-Even though most matchers do synchronous string matching, leaving the API asynchronous allows matchers that fill in more semantic information about the referrer by hitting some sort of API.
-
-## License
-
+Even though most matchers do synchronous string matching, leaving the API asynchronous allows matchers that fill in more semantic information about the referrer by hitting an API.
 
 ## License
 
