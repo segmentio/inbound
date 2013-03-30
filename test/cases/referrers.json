@@ -402,22 +402,53 @@
 			}
 		}
 	},
-	
 	{
 		"url": "http://www.wix.com/html5webbuilder/400?utm_source=google&utm_medium=cpc&utm_campaign=campaign&experiment_id=website^e^19781277423^1t1",
 		"referrer": "http://www.google.com/aclk?sa=l&ai=CsDFiIh9XUarABMvj6QHT0YGIBsfH_88Dv_bU_kn5k94GCAAQASgDUJDJ9Pb9_____wFgya6RiYikgBCgAZv_4_ADyAEBqgQoT9BFkNuIRTPl4hEXKRYEjwVv-qNBF2bW-ACWbWogoTsqdyq5AEvnm4AHzYCcDw&sig=AOD64_2m2H4pZxoNx02zUamBzdK_jJjxtg&ved=0CC4Q0Qw&adurl=http://www.wix.com/html5webbuilder/400%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dcampaign%26experiment_id%3Dwebsite%5Ee%5E19781277423%5E1t1&rct=j&q=website",
 		"result": {
 			"referrer": {
 				"type": "ad",
-				"client": "google",
-				"from": "http://www.google.com/aclk?sa=l&ai=CsDFiIh9XUarABMvj6QHT0YGIBsfH_88Dv_bU_kn5k94GCAAQASgDUJDJ9Pb9_____wFgya6RiYikgBCgAZv_4_ADyAEBqgQoT9BFkNuIRTPl4hEXKRYEjwVv-qNBF2bW-ACWbWogoTsqdyq5AEvnm4AHzYCcDw&sig=AOD64_2m2H4pZxoNx02zUamBzdK_jJjxtg&ved=0CC4Q0Qw&adurl=http://www.wix.com/html5webbuilder/400%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dcampaign%26experiment_id%3Dwebsite%5Ee%5E19781277423%5E1t1&rct=j&q=website",
-				"link": "http://www.wix.com/html5webbuilder/400?utm_source=google&utm_medium=cpc&utm_campaign=campaign&experiment_id=website^e^19781277423^1t1",
+				"network": "google",
 				"query": "website"
 			},
 			"campaign": {
 				"source": "google",
 				"medium": "cpc",
 				"campaign": "campaign"
+			}
+		}
+	},
+	{
+		"url": "https://www.godaddy.com/hosting/website-builder.aspx?isc=wb1db002&utm_source=MSN&utm_medium=cpc&utm_term=create%20your%20own%20website&utm_content=2042012586&utm_campaign=11438627325&ef_id=tedO1uxdk1gAAAzl:20130330174459:s",
+		"referrer": "http://search.yahoo.com/search;_ylt=AphWIR0PcVHjVBdrcBiSd.SbvZx4?p=website&toggle=1&cop=mss&ei=UTF-8&fr=yfp-t-900",
+		"result": {
+			"referrer": {
+				"type": "ad",
+				"network": "yahoo",
+				"query": "website"
+			},
+			"campaign": { 
+				"campaign": "11438627325",
+				"source": "MSN",
+				"term": "create your own website",
+				"medium": "cpc" 
+			}
+		}
+	},
+	{
+		"url": "http://www.godaddy.com/domains/search-dus.aspx?isc=gofab002&utm_source=MSN&utm_medium=cpc&utm_term=buying%20domain%20names&utm_content=1567759293&utm_campaign=11438627038&ef_id=tedO1uxdk1gAAAzl:20130330174553:s",
+		"referrer": "http://www.bing.com/search?q=website&go=&qs=n&form=QBLH&pq=website&sc=8-4&sp=-1&sk=",
+		"result": {
+			"referrer": {
+				"type": "ad",
+				"network": "bing",
+				"query": "website"
+			},
+			"campaign": {
+				"campaign": "11438627038",
+				"source": "MSN",
+				"term": "buying domain names",
+				"medium": "cpc"
 			}
 		}
 	}
