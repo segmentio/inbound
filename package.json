@@ -12,6 +12,7 @@
   , "dependencies":{
       "underscore": "*"
     , "async": "*"
+    , "tldextract": "*"
   }
   , "devDependencies": {
       "should": "*"
