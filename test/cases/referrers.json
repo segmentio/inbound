@@ -401,5 +401,24 @@
 				"link": "http://www.nytimes.com/2012/12/23/us/mixed-reaction-to-call-for-armed-guards-in-schools.html?_r=0"
 			}
 		}
+	},
+	
+	{
+		"url": "http://www.wix.com/html5webbuilder/400?utm_source=google&utm_medium=cpc&utm_campaign=campaign&experiment_id=website^e^19781277423^1t1",
+		"referrer": "http://www.google.com/aclk?sa=l&ai=CsDFiIh9XUarABMvj6QHT0YGIBsfH_88Dv_bU_kn5k94GCAAQASgDUJDJ9Pb9_____wFgya6RiYikgBCgAZv_4_ADyAEBqgQoT9BFkNuIRTPl4hEXKRYEjwVv-qNBF2bW-ACWbWogoTsqdyq5AEvnm4AHzYCcDw&sig=AOD64_2m2H4pZxoNx02zUamBzdK_jJjxtg&ved=0CC4Q0Qw&adurl=http://www.wix.com/html5webbuilder/400%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dcampaign%26experiment_id%3Dwebsite%5Ee%5E19781277423%5E1t1&rct=j&q=website",
+		"result": {
+			"referrer": {
+				"type": "ad",
+				"client": "google",
+				"from": "http://www.google.com/aclk?sa=l&ai=CsDFiIh9XUarABMvj6QHT0YGIBsfH_88Dv_bU_kn5k94GCAAQASgDUJDJ9Pb9_____wFgya6RiYikgBCgAZv_4_ADyAEBqgQoT9BFkNuIRTPl4hEXKRYEjwVv-qNBF2bW-ACWbWogoTsqdyq5AEvnm4AHzYCcDw&sig=AOD64_2m2H4pZxoNx02zUamBzdK_jJjxtg&ved=0CC4Q0Qw&adurl=http://www.wix.com/html5webbuilder/400%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dcampaign%26experiment_id%3Dwebsite%5Ee%5E19781277423%5E1t1&rct=j&q=website",
+				"link": "http://www.wix.com/html5webbuilder/400?utm_source=google&utm_medium=cpc&utm_campaign=campaign&experiment_id=website^e^19781277423^1t1",
+				"query": "website"
+			},
+			"campaign": {
+				"source": "google",
+				"medium": "cpc",
+				"campaign": "campaign"
+			}
+		}
 	}
 ]
