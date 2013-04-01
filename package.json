@@ -1,8 +1,8 @@
 {
     "name": "inbound"
-  , "version": "0.0.3"
+  , "version": "0.0.4"
   , "description": "Url referrer and campaign parsing utilities"
-  , "author": "Ilya Volodarsky <ilya@segment.io>"
+  , "author": "Ilya Volodarsky <ilya@segment.io>, Adam Solove <asolove@gmail.com>"
   , "engines": { "node": ">= 0.8" }
   , "main": "./index"
   , "repository": "git://github.com/segmentio/inbound"
