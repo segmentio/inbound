@@ -119,7 +119,9 @@ inbound.referrer.parse(url, referrer, function (err, description) {
 * [Hotmail](https://github.com/segmentio/inbound/tree/master/lib/matchers/email/hotmail.js)
 
 ### Ads
-_Gasp!_ None yet. Please [help me add some](#contribute).
+* [Bing](https://github.com/segmentio/inbound/tree/master/lib/matchers/ad/bing.js)
+* [Google](https://github.com/segmentio/inbound/tree/master/lib/matchers/ad/google.js)
+* [Yahoo](https://github.com/segmentio/inbound/tree/master/lib/matchers/ad/yahoo.js)
 
 ### Internal
 Internal referrers occur when a visitor navigates between two pages of the same domain. Example: http://site.com => http://site.com/about
