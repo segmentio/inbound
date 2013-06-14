@@ -459,6 +459,30 @@
 		}
 	},
 	{
+		"url": "http://www.hanintel.com/",
+		"referrer": "http://mail.naver.com/?n=1371247097062&v=f",
+		"result": {
+			"referrer": {
+				"type": "email",
+				"client": "naver",
+				"from": "http://mail.naver.com/?n=1371247097062&v=f",
+				"link": "http://www.hanintel.com/"
+			}
+		}
+	},
+	{
+		"url": "http://www.hanintel.com/",
+		"referrer": "http://mail2.daum.net/hanmailex/Top.daum",
+		"result": {
+			"referrer": {
+				"type": "email",
+				"client": "daum",
+				"from": "http://mail2.daum.net/hanmailex/Top.daum",
+				"link": "http://www.hanintel.com/"
+			}
+		}
+	},
+	{
 	  "url": null,
 	  "referrer": "http://www.bing.com/local/details.aspx?lid=YN165x196022063&q=restaurant&qt=yp&tid=0ef5d82049cf4d7da1e308dbc82bc30e&FORM=LLSV",
 	  "result": {
