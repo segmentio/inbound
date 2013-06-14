@@ -136,6 +136,39 @@
 		}
 	},
 	{
+		"url": "http://www.hanintel.com/",
+		"referrer": "http://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ie=utf8&query=hanintel&x=-595&y=-51",
+		"result": {
+			"referrer": {
+				"type": "search",
+				"engine": "naver",
+				"query": "hanintel"
+			}
+		}
+	},
+	{
+		"url": "http://www.hanintel.com/",
+		"referrer": "http://search.daum.net/search?w=tot&DA=YZRR&t__nil_searchbox=btn&sug=&q=hanintel",
+		"result": {
+			"referrer": {
+				"type": "search",
+				"engine": "daum",
+				"query": "hanintel"
+			}
+		}
+	},
+	{
+		"url": "http://www.hanintel.com/",
+		"referrer": "http://search.nate.com/search/all.html?s=&sc=&afc=&j=&thr=sbma&nq=&q=hanintel",
+		"result": {
+			"referrer": {
+				"type": "search",
+				"engine": "nate",
+				"query": "hanintel"
+			}
+		}
+	},
+	{
 		"url": "http://blog.intercom.io/churn-retention-and-reengaging-customers/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+contrast%2Fblog+%28The+Intercom+Blog%29",
 		"referrer": "http://hypem.com/blog/indie+rock+cafe/12289",
 		"result": {
