@@ -70,6 +70,16 @@
 		}
 	},
 	{
+		"url": "http://www.hanintel.com/",
+		"referrer": "http://me2day.net/xissy/me",
+		"result": {
+			"referrer": {
+				"type": "social",
+				"network": "me2day"
+			}
+		}
+	},
+	{
 		"url": "",
 		"referrer": "http://search.aol.com/aol/search?s_it=topsearchbox.search&v_t=comsearch51&q=segment.io",
 		"result": {
@@ -132,6 +142,39 @@
 				"type": "search",
 				"engine": "yahoo",
 				"query": "hello how are you"
+			}
+		}
+	},
+	{
+		"url": "http://www.hanintel.com/",
+		"referrer": "http://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ie=utf8&query=hanintel&x=-595&y=-51",
+		"result": {
+			"referrer": {
+				"type": "search",
+				"engine": "naver",
+				"query": "hanintel"
+			}
+		}
+	},
+	{
+		"url": "http://www.hanintel.com/",
+		"referrer": "http://search.daum.net/search?w=tot&DA=YZRR&t__nil_searchbox=btn&sug=&q=hanintel",
+		"result": {
+			"referrer": {
+				"type": "search",
+				"engine": "daum",
+				"query": "hanintel"
+			}
+		}
+	},
+	{
+		"url": "http://www.hanintel.com/",
+		"referrer": "http://search.nate.com/search/all.html?s=&sc=&afc=&j=&thr=sbma&nq=&q=hanintel",
+		"result": {
+			"referrer": {
+				"type": "search",
+				"engine": "nate",
+				"query": "hanintel"
 			}
 		}
 	},
@@ -422,6 +465,30 @@
 				"client": "hotmail",
 				"from": "http://sn143w.snt143.mail.live.com/mail/InboxLight.aspx?n=265210727",
 				"link": "http://www.nytimes.com/2012/12/23/us/mixed-reaction-to-call-for-armed-guards-in-schools.html?_r=0"
+			}
+		}
+	},
+	{
+		"url": "http://www.hanintel.com/",
+		"referrer": "http://mail.naver.com/?n=1371247097062&v=f",
+		"result": {
+			"referrer": {
+				"type": "email",
+				"client": "naver",
+				"from": "http://mail.naver.com/?n=1371247097062&v=f",
+				"link": "http://www.hanintel.com/"
+			}
+		}
+	},
+	{
+		"url": "http://www.hanintel.com/",
+		"referrer": "http://mail2.daum.net/hanmailex/Top.daum",
+		"result": {
+			"referrer": {
+				"type": "email",
+				"client": "daum",
+				"from": "http://mail2.daum.net/hanmailex/Top.daum",
+				"link": "http://www.hanintel.com/"
 			}
 		}
 	},
