@@ -1,6 +1,6 @@
 {
   "name": "s-inbound",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "Url referrer and campaign parsing utilities",
   "author": "Ilya Volodarsky <ilya@segment.io>, Adam Solove <asolove@gmail.com>",
   "engines": {
@@ -19,5 +19,8 @@
   "devDependencies": {
     "should": "*",
     "mocha": "*"
+  },
+  "publishConfig": {
+    "registry": "https://registry.segment.io"
   }
 }
