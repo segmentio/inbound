@@ -70,16 +70,6 @@
 		}
 	},
 	{
-		"url": "http://www.hanintel.com/",
-		"referrer": "http://me2day.net/xissy/me",
-		"result": {
-			"referrer": {
-				"type": "social",
-				"network": "me2day"
-			}
-		}
-	},
-	{
 		"url": "",
 		"referrer": "http://search.aol.com/aol/search?s_it=topsearchbox.search&v_t=comsearch51&q=segment.io",
 		"result": {
