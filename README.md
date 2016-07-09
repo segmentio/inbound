@@ -106,6 +106,10 @@ inbound.referrer.parse(url, referrer, function (err, description) {
 * [Pinterest](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/pinterest.js)
 * [LinkedIn](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/linkedin.js)
 * [Me2day](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/me2day.js)
+* [Vkontakte](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/vkontakte.js)
+* [LiveJournal](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/livejounal.js)
+* [Odnoklassniki](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/odnoklassniki.js)
+* [MyWorld](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/myworld.js)
 
 ### Search
 * [Google](https://github.com/segmentio/inbound/tree/master/lib/matchers/search/google.js)
@@ -113,6 +117,7 @@ inbound.referrer.parse(url, referrer, function (err, description) {
 * [Yahoo](https://github.com/segmentio/inbound/tree/master/lib/matchers/search/yahoo.js)
 * [Baidu](https://github.com/segmentio/inbound/tree/master/lib/matchers/search/baidu.js)
 * [Yandex](https://github.com/segmentio/inbound/tree/master/lib/matchers/search/yandex.js)
+* [Mail.ru](https://github.com/segmentio/inbound/tree/master/lib/matchers/search/mailru.js)
 * [Naver](https://github.com/segmentio/inbound/tree/master/lib/matchers/search/naver.js)
 * [Daum](https://github.com/segmentio/inbound/tree/master/lib/matchers/search/daum.js)
 * [Nate](https://github.com/segmentio/inbound/tree/master/lib/matchers/search/nate.js)
@@ -123,11 +128,14 @@ inbound.referrer.parse(url, referrer, function (err, description) {
 * [Hotmail](https://github.com/segmentio/inbound/tree/master/lib/matchers/email/hotmail.js)
 * [Naver](https://github.com/segmentio/inbound/tree/master/lib/matchers/email/naver.js)
 * [Daum](https://github.com/segmentio/inbound/tree/master/lib/matchers/email/daum.js)
+* [Yandex](https://github.com/segmentio/inbound/tree/master/lib/matchers/email/yandex.js)
+* [Mail.ru](https://github.com/segmentio/inbound/tree/master/lib/matchers/email/mailru.js)
 
 ### Ads
 * [Bing](https://github.com/segmentio/inbound/tree/master/lib/matchers/ad/bing.js)
 * [Google](https://github.com/segmentio/inbound/tree/master/lib/matchers/ad/google.js)
 * [Yahoo](https://github.com/segmentio/inbound/tree/master/lib/matchers/ad/yahoo.js)
+* [Yandex](https://github.com/segmentio/inbound/tree/master/lib/matchers/ad/yandex.js)
 
 ### Internal
 Internal referrers occur when a visitor navigates between two pages of the same domain. Example: http://site.com => http://site.com/about
