@@ -667,5 +667,96 @@
 				"type": "direct"
 			}
 		}
+	},
+	{
+		"url": "https://segment.com/?utm_source=yandex&utm_medium=cpc&utm_campaign=segment&utm_content=segment.io&yclid=3873814799576992717",
+		"referrer": "http://yabs.yandex.ua/count/B0COuQR0VS40000ZhkY17W5NmUL0Pi2RaEt0IGpYB8KS245YVaX9DXgviSb29W5dQ3RJmAcKOgpShov1Doz-ULq1hsyuB2X1AekfQpx_WIyh5hY18q1tG7Ua2JqaRxsJq82b_0umHCc8ho93fEF29a5GeoOXKksa11PjP0uIg2Oy7-lc8LBivYxVRIGE4hPgWiD0TgePmW1b90_3QUVpGUelfLl5mUam0000F08hlR704DsF2XS0x43igGG00AveDjF0hlotACWS7X73G71__________yFmlHw6CMALfr22SMF3zB__________m_J0jlpLZtnxisSP07VZmXw7W00?q=segment.io",
+		"result": {
+			"referrer": {
+				"type": "ad",
+				"network": "yandex",
+				"query": "segment.io"
+			},
+			"campaign": {
+				"source": "yandex",
+				"medium": "cpc",
+				"campaign": "segment"
+			}
+		}
+	},
+	{
+		"url": null,
+		"referrer": "https://yandex.ua/clck/jsredir?from=yandex.ua%3Bsearch%2F%3Bweb%3B%3B&text=&etext=1110.u_2RiEBwVeECHFFFFhvtvHzhKkWViSFDTYoSOmYOf6g.d6bde9d0b6a6f5a4b6b1681e643523f20aec79f0&uuid=&state=PEtFfuTeVD5kpHnK9lio9bb4iM1VPfe4W5x0C0-qwflIRTTifi6VAA&data=UlNrNmk5WktYejY4cHFySjRXSWhXQ01pUWpVa1RKcWNKbV9oaWVqd1dUZy0wQTRmVkIzVWFYRk1IYm8zaWR6ZGotQjA2cEZFRXBINGpBRWZ2MFc5UlNiclFmYUUxWHBG&b64e=2&sign=d1fd21cc10e07b9f55dabbb9de3023b5&keyno=0&cst=AiuY0DBWFJ5Hyx_fyvalFAXyIP5Pir9WA4xNsQx3SOl-mm4if1VeYn6jRoDeY5OzYiNmq_5g4UYwUKY6B297uz8p5U06PEOQZk_Fhu3cDKvAsI-hOSk_ptJI3j3jI_5aZtUdzmi6UdXhwmEDRNV7u9K6IY1_98bFD9waKU93SYJ2heKqBk4EB4X8hjQy5QTwtapMU26HFa8wVg9QDc6XvxT4XB_faek6n3s09VONfkXkrEWxSx6yQ9Tg9UAApKQkuw2tWA-FaLnHXnIlCOsxAUbq6rxNhJNSBnau3jd-k2G80ySxHvSiPf_sFlwWRYU6zOSvBqUi56bfo4EeK8mEke6SM85WkDa0&ref=orjY4mGPRjmt1xzYuZsDZSKx6sHOF1RVVGPmwHJSlJG8Lea9dUm8MxcbEsy8AOzONFVgX0KliUZuDirBdSxKmItE-3JD5Q6q1uU7d5FC_QBYzdSLdQbbSXosDuD-EzPrV1-J6_OQ7Zsp_QV5NTccC6KX1Yz1UM-E&l10n=ru&cts=1468019597446&mc=5.506933514686471",
+		"result": {
+			"referrer": {
+				"type": "search",
+				"engine": "yandex"
+			}
+		}
+	},
+	{
+		"url": "https://segment.io/",
+		"referrer": "http://go.mail.ru/search?fr=main&frm=main&q=segment.io",
+		"result": {
+			"referrer": {
+				"type": "search",
+				"engine": "mailru",
+				"query": "segment.io"
+			}
+		}
+	},
+	{
+		"url": null,
+		"referrer": "https://vk.com/away.php?to=https%3A%2F%2Fsegment.com%2F",
+		"result": {
+			"referrer": {
+				"type": "social",
+				"network": "vkontakte"
+			}
+		}
+	},
+	{
+		"url": null,
+		"referrer": "https://click.my.mail.ru/redir?u=https%3A%2F%2Fsegment.com%2F&c=smw&r=http&o=mm&e=1468109237&s=5ecb7a1fa259a10c",
+		"result": {
+			"referrer": {
+				"type": "social",
+				"network": "myworld"
+			}
+		}
+	},
+	{
+		"url": null,
+		"referrer": "https://livejournal.com",
+		"result": {
+			"referrer": {
+				"type": "social",
+				"network": "livejournal"
+			}
+		}
+	},
+	{
+		"url": "https://segment.com",
+		"referrer": "https://mail.yandex.ua/?uid=2386333614546&login=username#message/159314836818231294569",
+		"result": {
+			"referrer": {
+				"type": "email",
+				"client": "yandex",
+				"from": "https://mail.yandex.ua/?uid=2386333614546&login=username#message/159314836818231294569",
+				"link": "https://segment.com/"
+			}
+		}
+	},
+	{
+		"url": "https://segment.com",
+		"referrer": "https://e.mail.ru/message/14680259660000000222234235/",
+		"result": {
+			"referrer": {
+				"type": "email",
+				"client": "mailru",
+				"from": "https://e.mail.ru/message/14680259660000000222234235/",
+				"link": "https://segment.com/"
+			}
+		}
 	}
 ]
