@@ -106,6 +106,8 @@ inbound.referrer.parse(url, referrer, function (err, description) {
 * [Pinterest](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/pinterest.js)
 * [LinkedIn](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/linkedin.js)
 * [Me2day](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/me2day.js)
+* [Hangouts](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/hangouts.js)
+* [Line](https://github.com/segmentio/inbound/tree/master/lib/matchers/social/line.js)
 
 ### Search
 * [Google](https://github.com/segmentio/inbound/tree/master/lib/matchers/search/google.js)
