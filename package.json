@@ -1,6 +1,6 @@
 {
-  "name": "s-inbound",
-  "version": "1.0.0",
+  "name": "sweet-inbound",
+  "version": "1.0.1",
   "description": "Url referrer and campaign parsing utilities",
   "author": "Ilya Volodarsky <ilya@segment.io>, Adam Solove <asolove@gmail.com>",
   "engines": {
