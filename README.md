@@ -107,6 +107,9 @@ inbound.referrer.parse(url, referrer, function (err, description) {
 * [LinkedIn](https://github.com/ashe540/inbound/tree/master/lib/matchers/social/linkedin.js)
 * [Me2day](https://github.com/ashe540/inbound/tree/master/lib/matchers/social/me2day.js)
 * [Hangouts](https://github.com/ashe540/inbound/tree/master/lib/matchers/social/hangouts.js)
+* [Instagram](https://github.com/ashe540/inbound/tree/master/lib/matchers/social/instagram.js)
+* [Reddit](https://github.com/ashe540/inbound/tree/master/lib/matchers/social/reddit.js)
+* [Tumblr](https://github.com/ashe540/inbound/tree/master/lib/matchers/social/tumblr.js)
 
 ### Search
 * [Google](https://github.com/ashe540/inbound/tree/master/lib/matchers/search/google.js)
