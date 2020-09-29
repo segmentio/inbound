@@ -1,0 +1,22 @@
+{
+  "env": {
+    "jest": true
+  },
+  "extends": ["airbnb-base", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-use-before-define": ["error", { "functions": false }],
+    "no-underscore-dangle": ["error", { "allow": ["_id"] }],
+    "no-shadow": 1,
+    "no-await-in-loop": 0
+  },
+  "overrides": [
+    {
+      "files": "*.test.js",
+      "rules": {
+        "no-unused-expressions": "off"
+      }
+    }
+  ]
+}
