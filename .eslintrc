@@ -9,7 +9,13 @@
     "no-use-before-define": ["error", { "functions": false }],
     "no-underscore-dangle": ["error", { "allow": ["_id"] }],
     "no-shadow": 1,
-    "no-await-in-loop": 0
+    "no-await-in-loop": 0,
+    "prefer-destructuring": ["error", {
+      "AssignmentExpression": {
+        "array": false,
+        "object": false
+      }
+    }]
   },
   "overrides": [
     {

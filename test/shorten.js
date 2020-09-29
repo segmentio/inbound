@@ -1,29 +1,26 @@
+const _ = require('underscore')
+const should = require('should')
 
-var _             = require('underscore'),
-    should        = require('should'),
+const shorten = require('../lib/shorten')
+const domainCases = require('./cases/shorterDomains')
+const domainUrls = require('./cases/shorterUrls')
 
-    shorten       = require('../lib/shorten'),
-    domainCases   = require('./cases/shorterDomains'),
-    domainUrls    = require('./cases/shorterUrls');
+describe('Shorten utils', () => {
+  it('should be able to shorten domains', (done) => {
+    _.each(domainCases, (expected, input) => {
+      const shortened = shorten.domain(input)
+      shortened.should.equal(expected)
+    })
 
-describe('Shorten utils', function () {
+    done()
+  })
 
-  it('should be able to shorten domains', function (done) {
-    _.each(domainCases, function (expected, input) {
-      var shortened = shorten.domain(input);
-      shortened.should.equal(expected);
-    });
+  it('should be able to shorten urls', (done) => {
+    _.each(domainUrls, (expected, input) => {
+      const shortened = shorten.url(input)
+      should.equal(shortened, expected)
+    })
 
-    done();
-  });
-
-  it('should be able to shorten urls', function (done) {
-    _.each(domainUrls, function (expected, input) {
-      var shortened = shorten.url(input);
-      should.equal(shortened, expected);
-    });
-
-    done();
-  });
-
-});
+    done()
+  })
+})
